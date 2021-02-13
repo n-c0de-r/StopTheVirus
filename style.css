@@ -1,0 +1,22 @@
+textarea {
+	width:90vw;
+	}
+textarea {
+	readonly: true;
+	height: 80vh;
+	resize: none;
+	font-size: 2rem;
+	}
+button, input {
+	width: 45vw;
+	height: 5vw;
+	font-size: 2rem;
+	}
+@media only screen and (min-width:500px){
+	textarea {
+	width:50vw;
+	}
+button, input {
+	width: 25vw;
+	}
+}
